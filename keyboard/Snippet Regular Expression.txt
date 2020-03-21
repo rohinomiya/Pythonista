@@ -1,0 +1,5 @@
+^		top of string
+$		end of string
+.		any character except a newline
+
+

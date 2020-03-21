@@ -1,0 +1,212 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {308, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "493CCC48-906F-4C57-8682-81EDD901B92D",
+          "font_size" : 17,
+          "corner_radius" : 0,
+          "frame" : "{{60, 144}, {200, 32}}",
+          "border_width" : 1,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "action" : "",
+          "text" : "([^ ]+)",
+          "placeholder" : "input regular expression",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "text_re",
+          "flex" : "W"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 197}, {202, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label1",
+          "frame" : "{{85, 144}, {150, 32}}",
+          "uuid" : "E03BE914-B86D-4F9D-9F28-3970057CF68A",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "macthed information:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{234, 46}, {80, 33}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "L",
+          "border_width" : 1,
+          "action" : "on_copy_re",
+          "frame" : "{{120, 144}, {80, 32}}",
+          "title" : "Copy",
+          "uuid" : "851D4EAD-8A25-4093-A77F-CF312A2902A1",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "name" : "button_copy",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{234, 150}, {80, 33}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "L",
+          "border_width" : 1,
+          "action" : "on_paste_any_text",
+          "frame" : "{{120, 144}, {80, 32}}",
+          "title" : "Paste",
+          "class" : "Button",
+          "uuid" : "851D4EAD-8A25-4093-A77F-CF312A2902A1",
+          "corner_radius" : 0,
+          "font_size" : 15,
+          "name" : "button_paste"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{8, 85}, {306, 57}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "C64EB368-EDDE-4AD0-934F-D5584EB24396",
+          "font_size" : 17,
+          "corner_radius" : 0,
+          "frame" : "{{60, 60}, {200, 200}}",
+          "editable" : true,
+          "border_width" : 1,
+          "custom_attributes" : "",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "this is a pen.",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "text_any",
+          "flex" : "W"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 237}, {306, 77}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "C64EB368-EDDE-4AD0-934F-D5584EB24396",
+          "flex" : "W",
+          "corner_radius" : 0,
+          "frame" : "{{60, 60}, {200, 200}}",
+          "editable" : true,
+          "border_width" : 1,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "text_result",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{234, 188}, {80, 41}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "L",
+          "border_width" : 1,
+          "action" : "onCheck",
+          "frame" : "{{120, 144}, {80, 32}}",
+          "title" : "Check",
+          "class" : "Button",
+          "uuid" : "851D4EAD-8A25-4093-A77F-CF312A2902A1",
+          "corner_radius" : 0,
+          "font_size" : 15,
+          "name" : "button_go"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{21, 46}, {80, 33}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "L",
+          "border_width" : 1,
+          "action" : "on_insert_re",
+          "frame" : "{{120, 144}, {80, 32}}",
+          "title" : "Copy",
+          "uuid" : "851D4EAD-8A25-4093-A77F-CF312A2902A1",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "name" : "button_insert _re",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{26, 85}, {267, 223}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "E5243121-4934-4EC6-A77B-7FEF2EE0A319",
+          "data_source_action" : "on_select_re",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "frame" : "{{60, 60}, {200, 200}}",
+          "data_source_items" : "^\n$\n.\n*\n+",
+          "data_source_number_of_lines" : 1,
+          "border_width" : 1,
+          "data_source_delete_enabled" : false,
+          "data_source_font_size" : 18,
+          "row_height" : 40,
+          "class" : "TableView",
+          "name" : "tableview1",
+          "flex" : "WH"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "Regular expression checker",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
